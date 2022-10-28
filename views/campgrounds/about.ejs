@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        #more {display: none;}
+        </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="" href="/stylesheets/about.css">
+</head>
+<body class="d-flex text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-left mb-0">GOAT<sup>&#128016;</sup></h3>
+                <nav class="nav nav-masthead justify-content-center float-md-right">
+                    <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+                        <a class="nav-link" href="/">Home</a>
+                </nav>
+            </div>
+        </header>
+    <main class="px-3">
+        <p class="lead"> Welcome to GOAT! <br> Jump right in and explore our many Hotels. <br>
+            Feel free to share some of your own and comment on others!</p>
+        <p>This website is currently bulid for the desktop view , <br> we will work later on the mobile view
+        <br>We are just begginers in the field of web dev 
+    <br>And at the present time we don't have suffiecient knowledge to build real world websites
+    <hr>
+    <br>So this website is just a prototype of how a real world website looks like , <br> we hope you will like it
+ <br>even though it is not sufficient enough
+ <hr>
+ <br><h4>The technologies we have used to build this websites are <span id="dots">...</span></h4>
+ <span id="more">
+    <img src="https://indianmemetemplates.com/wp-content/uploads/kaisa-laga-mera-majak.jpg" alt="" width="1024" height="607">
+    <hr>
+    <b>sorry,we can't share the information about the technologies</b>
+    <br><h4>It is confidential  &#128521;</h4>
+    <br><b>we need a UX/UI designer for our future projects
+    <br>and a backend developer who all the work for backend</b>
+    <hr>
+    <br>If you have some suggestions for us,
+    <br>please be feel free to share your suggestions on our mail 
+    <br><b>THEgoat@gmail.com</b>
+</span>
+</p>
+<button onclick="myFunction()" id="myBtn" class="btn btn-danger">Read more</button>
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    </main>
+    <footer class="mt-auto text-white-50">
+        <p>
+            <a href="https://instagram.com/souptiksarkar147?igshid=YmMyMTA2M2Y="><b>FOLLOW US ON INSTAGRAM</b></a>
+        </p>
+    </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
